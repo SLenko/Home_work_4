@@ -1,4 +1,4 @@
-# Декоратор помилок (Error Decorator)
+# Декоратор помилок (Error Decorator for function)
 def input_error(func):
     def wrapper(*args, **kwargs):
         try:
